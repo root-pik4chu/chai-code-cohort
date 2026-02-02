@@ -1,0 +1,134 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+font-family: PT Sans;
+}
+@font-face {
+   font-family: f1;
+   src: url(CursorGothic_Regular-s.p.a361088d.ttf);
+}
+body{
+height: 100%;
+width: 100%;
+background-color: #14120b;
+color: whitesmoke;
+font-family: f1;
+}
+
+.button{
+ 
+   /* height: 3.2vw; */
+   background: #edecec;
+   border-radius: 5vw;
+   padding: 0.7vw 1.2vw;
+   width: fit-content;
+   color: black;
+   font-size: 1.2vw;
+   gap: 0.5vw;
+   font-weight: 300;
+}
+
+.flex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.flex-col{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.main{
+   width: 90%;
+   margin: auto;
+}
+
+.hero_section{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.logo , .links, .cta_buttons {
+   width: 33.3%;
+   height: 100%;
+   /* background: red; */
+}
+nav{
+   width: 100%;
+   height: 6vh;
+   /* background: pink; */
+   display: flex;
+   gap: 1vw;
+}
+nav .links{
+   font-size: 1.1vw;
+   text-transform: capitalize;
+   font-weight: 500;
+   gap: 2.2vw;
+   /* letter-spacing: vw; */
+   /* background: black; */
+}
+
+.small_btn_color{
+   background-color: #edecec;
+   height: fit-content;
+   color: black;
+   padding: 0.1vw .5vw;
+   border-radius: 1vw;
+   font-size: 1.1vw;
+   /* font-weight: 700; */
+}
+
+.cta_buttons{
+   justify-content: end;
+   gap: 1vw;
+
+}
+.second{
+   width: 50%;
+   height: 46vh;
+   position: relative;
+   padding-top: 7.5vh;
+   align-items: start;
+   gap: 2vw;
+}
+
+.second h2{
+   font-size: 1.9vw;
+   width: 90%;
+   font-weight: 100;
+   line-height: 2.3vw;
+}
+.image_section{
+   width: 100%;
+   height: 100vh;
+   background: rgb(4, 0, 40);
+}
+
+
+.company_logo{
+   width: 100%;
+   height: 40vh;
+   background: rgb(57, 0, 0);
+}
+
+.image_text_side_by_side{
+   width: 100%;
+   height: 100vh;
+   /* background: rgb(33, 0, 33); */
+}
+#one{
+   background: #000;
+}
+#two{
+   background-color: red;
+}
+#four{
+   height: 50vh;
+   background: rgb(0, 13, 34);
+}
